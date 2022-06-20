@@ -6,7 +6,8 @@
   "scripts": {
     "start": "webpack-dev-server .",
     "build": "Webpack .",
-    "build-prod": "Webpack --mode production ."
+    "build-prod": "Webpack --mode production .",
+    "deploy": "npm run build-prod && gh-pages -d public"
   },
   "author": "Angelo Falci",
   "license": "ISC",
